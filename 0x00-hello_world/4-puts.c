@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * the entry point for a program
- * no argument
+ * main - entry point
+ * @void: no arguments
+ * Description: the program starts and ends here.
+ * Return: value 0 to exit
  */
 
 int main(void)
