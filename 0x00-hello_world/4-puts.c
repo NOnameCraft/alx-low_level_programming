@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * the entry point for a program
  * no argument
  */
