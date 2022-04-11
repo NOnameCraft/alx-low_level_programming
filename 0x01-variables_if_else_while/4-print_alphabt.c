@@ -16,13 +16,13 @@ int i;
 i =  97;
 n = 1;
 
-while(n < 27)
+while (n < 27) 
 
 {
 
 putchar(i);
 
-if (n == 102 || n == 113)
+if (i == 102 || i == 113)
 
 {
 
