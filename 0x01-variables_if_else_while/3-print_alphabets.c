@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point 
+ * main - entry point
  *
  * Return: value 0 to exit
  */
