@@ -16,10 +16,12 @@ while (i < 10)
 
 {
 
-printf("%d\n", i);
+putchar(i);
 i++;
 
 }
+
+putchar('\n');
 
 return (0);
 
