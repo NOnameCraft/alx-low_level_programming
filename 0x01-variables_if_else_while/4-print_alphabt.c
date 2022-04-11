@@ -13,16 +13,11 @@ int main(void)
 int n;
 int i;
 
-i =  97;
-n = 1;
-
-while (n < 27) 
+for (i = 97, n = 1; n < 27; n++, i++)
 
 {
 
-putchar(i);
-
-if (i == 102 || i == 113)
+if (i == 101 || i == 113)
 
 {
 
@@ -30,10 +25,14 @@ continue;
 
 }
 
+putchar(i);
+
 i++;
 n++;
 
 }
+
+putchar('\n');
 
 return (0);
 }
