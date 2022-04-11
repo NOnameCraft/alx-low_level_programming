@@ -13,7 +13,7 @@ int main(void)
 int i;
 int n;
 
-for (i = 97, n = 0; n < 26; i++, n++)
+for (i = 97, n = 1; n < 27; i++, n++)
 
 {
 
