@@ -2,9 +2,8 @@
 
 /**
  * main - entry point
- * 
- * Return: value 0 to exit
  *
+ * Return: value 0 to exit
  */
 
 int main(void)
