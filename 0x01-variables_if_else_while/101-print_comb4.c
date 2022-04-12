@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main _ entry point
- *
+ * main - entry point
+ * 
  * Return: value 0 to exit
+ *
  */
 
 int main(void)
