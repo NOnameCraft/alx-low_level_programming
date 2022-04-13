@@ -23,7 +23,7 @@ x = n % 10 * (-1);
 
 x = n % 10;
 
-_putchar(x);
+_putchar('0' + x);
 return (x);
 
 }
