@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_last_digit - entry point 
+ * print_last_digit - entry point
  *
  * @n: input
  * Return: last digit of a number
@@ -21,7 +21,13 @@ x = (n % 10) * -1;
 
 }
 
+else
+
+{
+
 x = n % 10;
+
+}
 
 _putchar('0' + x);
 return (x);
