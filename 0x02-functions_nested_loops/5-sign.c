@@ -7,11 +7,11 @@
  * Return: value 1 if n is gt 0 , 0 if n eq 0 and -1 if n is lt 0
  */
 
-int print_sign(int c)
+int print_sign(int n)
 
 {
 
-if (c > 0)
+if (n > 0)
 
 {
 
@@ -22,7 +22,7 @@ if (c > 0)
 
 }
 
-else if (c == 0)
+else if (n == 0)
 
 {
 
