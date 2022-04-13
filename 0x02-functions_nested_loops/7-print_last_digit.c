@@ -15,7 +15,13 @@ int x;
 
 if (n < 0)
 
+{
+
 x = n % 10 * (-1);
+
+}
+
+x = n % 10;
 
 _putchar(x);
 return (x);
