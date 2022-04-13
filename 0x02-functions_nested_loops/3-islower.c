@@ -2,6 +2,7 @@
 
 /**
  * _islower - entry point
+ * *@c: input_value
  *
  * Return: value 0 to exit
  */
