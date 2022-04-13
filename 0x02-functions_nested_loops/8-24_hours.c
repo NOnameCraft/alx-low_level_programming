@@ -41,6 +41,8 @@ _putchar(j);
 
 }
 
+putchar('\n');
+
 }
 
 }
