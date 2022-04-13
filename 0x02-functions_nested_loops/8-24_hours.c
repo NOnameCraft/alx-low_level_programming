@@ -41,7 +41,7 @@ _putchar(j);
 
 }
 
-putchar('\n');
+_putchar('\n');
 
 }
 
