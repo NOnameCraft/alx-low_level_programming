@@ -18,15 +18,29 @@ for (i = 0; i <= 9; i++)
 
 for (j = 0; j <= 9; j++)
 
+s = i * j;
+
+if (s >= 0)
+
 {
 
-s = i * j;
-_putchar((s / 10));
-_putchar((s % 10));
+_putchar('0' + s);
+_putchar(',');
+_putchar(' ');
+
+{
+
+if (s >= 10)
+
+{
+_putchar('0' + (s / 10));
+_putchar('0' + (s % 10));
 _putchar(',');
 _putchar(' ');
 
 }
+
+else (
 
 _putchar('\n');
 
