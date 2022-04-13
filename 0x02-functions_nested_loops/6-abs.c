@@ -12,13 +12,15 @@ int _abs(int r)
 
 {
 
-if (r >= 0)
-
-return (r);
-
 if ( r < 0)
 
-return (-r);
+{
+
+r *= -1;
+
+}
+
+return (r);
 
 }
 
