@@ -13,8 +13,10 @@ int print_last_digit(int n)
 
 int x;
 
-x = n % 10;
+if (n < 0)
 
-return (x);
+x = n % 10 * (-1);
+
+return (xx);
 
 }
