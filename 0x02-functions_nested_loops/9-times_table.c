@@ -28,7 +28,7 @@ _putchar('0' + s);
 _putchar(',');
 _putchar(' ');
 
-{
+}
 
 if (s >= 10)
 
@@ -40,9 +40,11 @@ _putchar(' ');
 
 }
 
-else (
+else {
 
 _putchar('\n');
+
+}
 
 }
 
