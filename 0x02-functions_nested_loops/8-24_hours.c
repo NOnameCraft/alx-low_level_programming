@@ -20,31 +20,16 @@ for (j = 0; j <= 59; j++)
 
 {
 
-if ( i < 10)
-
-{
-
-_putchar('0');
-
-}
-_putchar(i);
+_putchar('0' + (i / 10));
+_putchar('0' + (i % 10));
 _putchar(':');
-
-if (j < 0)
-
-{
-
-_putchar('0');
-
-}
-_putchar(j);
-
-}
-
+_putchar('0' + (j / 10));
+_putchar('0' + (j % 10));
 _putchar('\n');
 
 }
 
 }
 
+}
 
