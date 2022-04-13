@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 /**
  * _isalpha - entry point
@@ -11,9 +11,7 @@ int _isalpha(int c)
 
 {
 
-int i;
-
-if ((i >= 65 && i <= 90) || (i >= 97 && i <= 122))
+if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 
 {
 
