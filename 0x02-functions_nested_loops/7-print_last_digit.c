@@ -17,6 +17,7 @@ if (n < 0)
 
 x = n % 10 * (-1);
 
-return (xx);
+_putchar(x);
+return (x);
 
 }
