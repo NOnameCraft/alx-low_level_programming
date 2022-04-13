@@ -21,7 +21,8 @@ for (j = 0; j <= 9; j++)
 {
 
 s = i * j;
-_putchar(s);
+_putchar(s / 10);
+_putchar(s % 10);
 _putchar(',');
 _putchar(' ');
 
