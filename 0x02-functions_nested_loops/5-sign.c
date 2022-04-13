@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign: entry point
+ * print_sign - entry point
  * *@n: input
  *
  * Return: value 1 if n is gt 0 , 0 if n eq 0 and -1 if n is lt 0
