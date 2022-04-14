@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * add - function 
+ * add - entry point
  * @x: argument
  * @y: argument
  * Return: sum of two value
