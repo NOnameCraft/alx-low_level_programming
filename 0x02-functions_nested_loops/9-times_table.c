@@ -18,9 +18,11 @@ for (i = 0; i <= 9; i++)
 
 for (j = 0; j <= 9; j++)
 
+{
+
 s = i * j;
 
-if (s >= 0)
+if (j == 0)
 
 {
 
@@ -30,7 +32,7 @@ _putchar(' ');
 
 }
 
-if (s >= 10)
+else if (s >= 10)
 
 {
 _putchar('0' + (s / 10));
@@ -40,11 +42,26 @@ _putchar(' ');
 
 }
 
-else {
+else 
 
-_putchar('\n');
+{
+_putchar(' ');
+_putchar(' ');
+_putchar(s + '0');
 
 }
+
+if (j != 9)
+
+{
+
+_putchar(',');
+
+}
+
+}
+
+_putchar('\n');
 
 }
 
