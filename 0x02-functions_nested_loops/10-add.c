@@ -2,8 +2,8 @@
 
 /**
  * add - function 
- *@x: argument
- *@y: argument
+ * @x: argument
+ * @y: argument
  * Return: sum of two value
  */
 
