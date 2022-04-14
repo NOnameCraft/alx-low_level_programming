@@ -35,11 +35,10 @@ _putchar(' ');
 else if (s >= 10)
 
 {
+
+_putchar(' ');
 _putchar('0' + (s / 10));
 _putchar('0' + (s % 10));
-_putchar(',');
-_putchar(' ');
-
 }
 
 else 
