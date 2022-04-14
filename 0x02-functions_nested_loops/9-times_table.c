@@ -25,11 +25,7 @@ s = i * j;
 if (j == 0)
 
 {
-
 _putchar('0' + s);
-_putchar(',');
-_putchar(' ');
-
 }
 
 else if (s >= 10)
