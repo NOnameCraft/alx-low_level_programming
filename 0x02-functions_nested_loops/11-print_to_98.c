@@ -15,6 +15,18 @@ if (n <= 98)
 for (i = n; i <= 98; i++)
 
 {
+
+if (i < 10)
+
+{
+
+if (i < 0)
+
+{
+_putchar('-');
+_putchar('0' + i);
+}
+}
 _putchar('0' + (i / 10));
 _putchar('0' + (i % 10));
 
@@ -43,4 +55,5 @@ _putchar(' ');
 }
 }
 }
+_putchar('\n');
 }
