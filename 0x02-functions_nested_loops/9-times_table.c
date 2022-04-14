@@ -31,7 +31,7 @@ _putchar('0' + (s / 10));
 _putchar('0' + (s % 10));
 }
 
-else 
+else
 
 {
 _putchar(' ');
