@@ -3,7 +3,7 @@
 /**
  * mul - entry point
  * @a: argument
- * @b: argument 
+ * @b: argument
  * Return: prod
  */
 
@@ -12,8 +12,7 @@ int mul(int a, int b)
 {
 
 int prod;
-
 prod = a * b;
-return (prod);
 
+return (prod);
 }
