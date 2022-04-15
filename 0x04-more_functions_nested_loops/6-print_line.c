@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_line - draw a line 
- * @n: number of time should be printed
+ * print_line - print line 
+ * @n: number of _ 
  * Return: void
  */
 
