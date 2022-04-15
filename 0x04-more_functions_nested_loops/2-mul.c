@@ -2,7 +2,8 @@
 
 /**
  * mul - entry point
- * @a @b: arguments 
+ * @a: argument
+ * @b: argument 
  * Return: the produit of two numbes
  */
 
