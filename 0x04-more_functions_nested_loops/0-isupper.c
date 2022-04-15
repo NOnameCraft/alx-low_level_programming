@@ -6,7 +6,7 @@
  * Return: 1 if c isppercase and 0 ohterwise
  */
 
-int _ispper(int c)
+int _isupper(int c)
 
 {
 
