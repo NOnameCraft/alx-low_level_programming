@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_upper - entry point
+ * _isupper - entry point
  * @c: argument
  * Return: 1 if c isppercase and 0 ohterwise
  */
