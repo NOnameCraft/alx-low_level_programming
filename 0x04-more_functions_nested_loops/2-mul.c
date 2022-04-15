@@ -4,7 +4,7 @@
  * mul - entry point
  * @a: argument
  * @b: argument 
- * Return: the produit of two numbes
+ * Return: prod
  */
 
 int mul(int a, int b)
@@ -14,7 +14,6 @@ int mul(int a, int b)
 int prod;
 
 prod = a * b;
-
 return (prod);
 
 }
