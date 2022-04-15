@@ -21,13 +21,9 @@ if (i == 52 || i == 54)
 {
 
 continue;
-
 }
-
 _putchar(i);
 
 }
-
 _putchar('\n');
-
 }
