@@ -8,7 +8,7 @@
  * Return: an integer represent the length of the argument
  */
 
-int int_strlen(char *s)
+int _strlen(char *s)
 
 {
 	int i;
