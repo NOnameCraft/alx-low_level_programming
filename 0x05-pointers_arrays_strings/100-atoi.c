@@ -20,14 +20,14 @@ int _atoi(char *s)
 	res = 0;
 	while (*(s + i) != '\0')
 	{
-		c = (s + i);
+		c = *(s + i);
 		if (c == '-')
 		{
 			sign *= -1;
 		}
 		if (c >= '0' && c <= '9')
 		{
-			ind2 = ;
+			ind2 = i;
 			while (*(s + ind2) > 47 && *(s + ind2) < 58)
 			{
 				res = (res * 10) + *(s + ind2) - '0';
