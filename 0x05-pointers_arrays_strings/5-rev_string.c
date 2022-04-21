@@ -24,6 +24,7 @@ void rev_string(char *s)
 		j--;
 		k++;
 	}
+	*p = ' ';
 	while (p[n] != '\0')
 	{
 		_putchar(p[n]);
