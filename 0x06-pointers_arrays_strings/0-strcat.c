@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat - appending two strings
+ * _strcat - appending two strings
  * @dest: argument
  * @src: argument
  * 
