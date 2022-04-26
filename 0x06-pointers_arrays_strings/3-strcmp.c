@@ -4,7 +4,7 @@
  * @s1: argument
  * @s2: argument
  *
- * Return: 1 or 0
+ * Return: value less than 0 or gt 0 or eq to 0
  */
 int _strcmp(char *s1, char *s2)
 {
