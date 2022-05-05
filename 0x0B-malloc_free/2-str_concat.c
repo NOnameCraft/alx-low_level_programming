@@ -5,7 +5,8 @@
  * str_concat - concatenates two strings
  * @s1: argument
  * @s2: argument
- * Return: a newly allocated space in memory which contains the contents of s1, followed by the contents of s2, and null terminated
+ * Return: a newly allocated space in memory which contains the contents of s1
+ * followed by the contents of s2, and null terminated
  */
 
 char *str_concat(char *s1, char *s2)
