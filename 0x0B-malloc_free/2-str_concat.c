@@ -10,8 +10,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-
-    unsigned int len1, len2, size, i, j;
+	unsigned int len1, len2, size, i, j;
 	char *nstr;
 
 	if (s1 == NULL)
@@ -47,5 +46,4 @@ char *str_concat(char *s1, char *s2)
 		j++;
 	}
 	return (nstr);
-    
 }
