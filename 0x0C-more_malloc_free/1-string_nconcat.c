@@ -6,8 +6,9 @@
  * @s1: argument
  * @s2: argument
  * @n: argument
- * Return: pointer shall point to a newly allocated space in memory, which contains s1,
- * followed by the first n bytes of s2, and null terminated
+ * Return: pointer shall point to a newly allocated space in memory
+ * which contains s1 followed by the first n
+ * bytes of s2, and null terminated
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
