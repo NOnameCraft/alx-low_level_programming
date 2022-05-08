@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
- /**
+  /**
   * @s1: pointer to first string
   * @s2: pointer to second string from which we'll take first n bytes
   * @n: n bytes of s2
